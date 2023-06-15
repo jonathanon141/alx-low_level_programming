@@ -1,5 +1,8 @@
 #include<stdio.h>
-/* this prints "Programming is like building a multili    ngual puzzle */
+/**
+ * main - this is the main function
+ * return - to 0
+ */
 int main(void)
 {
 
