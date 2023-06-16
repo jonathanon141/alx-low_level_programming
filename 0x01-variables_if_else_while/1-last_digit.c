@@ -8,20 +8,21 @@
 int main(void)
 {
 	int n;
+	int l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int last_number = n % 10;
+	l = n % 10;
 
 	printf("Last digit of %d is", n);
-	printf(" %d", last_number);
+	printf(" %d", l);
 
-	if (last_number > 5)
+	if (l > 5)
 	{
 		printf(" and is greater than 5");
 	}
-	if (last_number == 0)
+	if (l == 0)
 	{
 		printf(" and is 0");
 	}
